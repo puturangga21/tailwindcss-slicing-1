@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="src/css/output.css" />
+      <title>TailwindCSS | Slicing 1</title>
+   </head>
+   <body>
+      <header class="flex w-full items-center shadow-md">
+         <div class="container">
+            <nav class="flex h-20 w-full items-center justify-between bg-white px-4">
+               <div class="flex items-center gap-3">
+                  <a href="#" class="block lg:hidden"><i class="bx bx-menu bx-md flex items-center"></i></a>
+                  <img src="src/img/logo.svg" alt="Logo" class="w-[94px] lg:w-full" />
+               </div>
+
+               <div class="flex">
+                  <a href="#" class="block lg:hidden"><i class="bx bx-user-circle bx-md"></i></a>
+                  <ul class="hidden gap-6 lg:flex">
+                     <li><a href="#hero">Home</a></li>
+                     <li><a href="#courses">Courses</a></li>
+                     <li><a href="#instuctors">Instuctors</a></li>
+                     <li><a href="#schedules">Schedules</a></li>
+                     <li><a href="#contact">Contact Us</a></li>
+                  </ul>
+               </div>
+
+               <div class="hidden gap-5 lg:flex lg:items-center">
+                  <a href="#"><i class="bx bx-search bx-sm flex w-full items-center"></i></a>
+                  <a href="#" class="text-base text-primary">Login</a>
+                  <button class="rounded-md bg-primary py-3 px-8 text-white">Login</button>
+               </div>
+            </nav>
+         </div>
+      </header>
+
+      <section id="hero" class="pt-16">
+         <div class="container">
+            <div class="flex flex-wrap lg:my-10">
+               <div class="w-full self-center px-4 lg:w-1/2">
+                  <h1 class="text-[32px] font-bold lg:w-[700px] lg:text-6xl lg:leading-relaxed">
+                     Quality <span class="text-primary">Education</span> <br />
+                     By Any Means Necessary.
+                  </h1>
+                  <button class="mt-11 rounded-md bg-primary py-5 px-8 font-sans font-semibold text-white lg:mt-12">
+                     Get Started
+                  </button>
+               </div>
+
+               <div class="w-full self-end px-4 lg:w-1/2">
+                  <div class="mt-16 lg:right-0 lg:mt-0">
+                     <img src="src/img/hero-banner.png" alt="Hero Banner" class="mx-auto max-w-full" />
+                  </div>
+               </div>
+            </div>
+
+            <div class="mt-16">
+               <div class="flex w-full px-4 flex-wrap items-center justify-evenly gap-4 lg:justify-between lg:gap-0">
+                  <div class="flex h-[54px] w-[210px] items-center justify-center gap-3 rounded-md bg-[#DDFFFF] lg:w-[250px]">
+                     <img src="src/img/hero-mini-1.svg" alt="" />
+                     <p class="text-base">Group Reading</p>
+                  </div>
+                  
+                  <div class="flex h-[54px] w-[210px] items-center justify-center gap-3 rounded-md bg-[#DDFFFF] lg:w-[250px]">
+                     <img src="src/img/hero-mini-2.svg" alt="" />
+                     <p class="text-base">10K Courses</p>
+                  </div>
+                  
+                  <div class="flex h-[54px] w-[210px] items-center justify-center gap-3 rounded-md bg-[#DDFFFF] lg:w-[250px]">
+                     <img src="src/img/hero-mini-3.svg" alt="" />
+                     <p class="text-base">Problem Solving</p>
+                  </div>
+                  
+                  <div class="flex h-[54px] w-[210px] items-center justify-center gap-3 rounded-md bg-[#DDFFFF] lg:w-[250px]">
+                     <img src="src/img/hero-mini-4.svg" alt="" />
+                     <p class="text-base">Live Chat</p>
+                  </div>
+                  
+                  <div class="flex h-[54px] w-[210px] items-center justify-center gap-3 rounded-md bg-[#DDFFFF] lg:w-[250px]">
+                     <img src="src/img/hero-mini-5.svg" alt="" />
+                     <p class="text-base">Hand-on activities</p>
+                  </div>
+                
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>
